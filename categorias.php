@@ -6,10 +6,7 @@ $categorias[] = 'Juvenil';
 $categorias[] = 'Adulto';
 $categorias[] = 'Senior';
 
-
 //print_r($categorias);
-
-
 
 //$categorias = [];
 //$categorias = array( "Infantil", "Juvenil", "Adulto", "Senior");
