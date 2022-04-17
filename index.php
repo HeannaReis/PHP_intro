@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if(!empty($_SESSION['mensagem'])){
+        echo $_SESSION['mensagem'];
+        unset($_SESSION['mensagem']);
+        session_destroy();
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +21,7 @@
 <body>
 <h2><p>Formulário de Inscrição</p></h2>
 
-<form action="categorias.php" method="POST">
+<form action="categorias.php" method="post">
 
 <p>Your Name: <input type="text" name="nome" /> </p>
 <p>Your Age: <Input type="text" name="idade" /></p>
