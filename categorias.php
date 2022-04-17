@@ -19,25 +19,25 @@ $idade = $_POST['idade'];
 
 if (empty($nome) || ($idade) == '') 
 {
-    $_SESSION['mensagem'] = 'Preencha todos os campos corretamente ';
+    $_SESSION['mensagem'] = 'Preencha todos os campos corretamente !!!';
     header("Location: index.php");
     return;
 }
 elseif (strlen($nome) < 3)
 {
-    $_SESSION['mensagem'] =  "O Nome deve conter mais do que 3 caracteres ";
+    $_SESSION['mensagem'] =  "O Nome deve conter mais do que 3 caracteres !!! ";
     header("Location: index.php");
     return;
 }
 elseif (strlen($nome) > 40)
 {
-    $_SESSION['mensagem'] = "O Nome não deve conter mais do que 40 caracteres ";
+    $_SESSION['mensagem'] = "O Nome não deve conter mais do que 40 caracteres !!!";
     header("Location: index.php");
     return;
 }
 elseif (!is_numeric($idade))
 {
-    $_SESSION['mensagem'] = "Campo Idade só aceita números";
+    $_SESSION['mensagem'] = "Campo Idade só aceita números !!!";
     header("Location: index.php");
     return;
 }
@@ -45,7 +45,7 @@ elseif (!is_numeric($idade))
 else if($idade < 6)
 {
     {
-        $_SESSION['mensagem']= " Desculpe " .$nome. " , você ainda não pode competir!! ";
+        $_SESSION['mensagem']= " Desculpe " .$nome. " , você ainda não pode competir !!! ";
         header("Location: index.php");
         return;
     }    
