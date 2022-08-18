@@ -1,1 +1,1 @@
-## Repositório para registro de estudos dos Curso de PHP realizados na Plataforma da Digital Innovation One entre outros.
+## Repositório para registro de estudos dos Curso de PHP realizados na Plataforma da Digital Innovation One e na Academia Stefanini, professor Tiago A. Silva.
