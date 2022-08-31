@@ -7,7 +7,7 @@
     <style>
     
     table{
-    width: 90% !important; /*Importante manter o !important rs */
+        width:90% !important; /*Importante manter o !important rs */
     margin: auto;
     background: #1e1e1e;
     border: 5px solid 	#6495ED;
@@ -42,7 +42,7 @@
 
 <tr>
     <th rowspan="2">Aluno</th>
-    <th rowspan="2">Email</th>
+    <th rowspan="2">CPF</th>
     <th rowspan="2">Telefone</th>
     <th colspan="6" align="center">Endereço</th><tr>
     <th>Logradouro</th>
@@ -71,7 +71,7 @@
      ['logradouro' => 'Estrada Longa de Pedra', 'numero' => '178', 'bairro' => 'Parque do Lago', 'cidade' => "São Paulo", 'estado' => 'SP', 'cep' => '44444-444']]
 ];
 
-foreach ($alunos as $key => $value){
+foreach ($alunos as $value){
     echo '<tr><td>'
     .$value['nome']
     .'</td><td>'
@@ -96,3 +96,6 @@ foreach ($alunos as $key => $value){
 		?>
 
 </table>
+</body>
+
+</html>
