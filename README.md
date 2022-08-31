@@ -5,5 +5,3 @@
 ### Digital Innovation One
 
 ### Academia Stefanini, professor Tiago A. Silva.
-
-![alt text](https://github.com/HeannaReis/PHP_intro/blob/master/ETEC_PHP/foreach.png)
