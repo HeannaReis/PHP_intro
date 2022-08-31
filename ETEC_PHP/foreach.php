@@ -96,3 +96,5 @@ foreach ($alunos as $value){
 		?>
 
 </table>
+</body>
+</html>
