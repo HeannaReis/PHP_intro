@@ -1,0 +1,71 @@
+Atividades:
+
+ 	
+Reproduza o exemplo da aula
+	 
+	
+Crie um programa em PHP, que calcule a soma de todos os números presentes em um array de tamanho aleatório e apresente na tela.
+	Exemplo de array: $numeros = [53, 82, 80, 66, 41, 64, 28, 99, 77, 57];
+	Soma: 647
+	 
+	
+Crie um programa que apresente o maior, o menor e a média de todos os números presentes em um array de tamanho aleatório.
+	Exemplo de array: $numeros = [53, 82, 80, 66, 41, 64, 28, 99, 77, 50];
+	Maior: 99
+	Menor: 28
+	Média: 64
+	 
+	
+Faça um programa que apresente informações sobre o grupo de funcionários de uma empresa. Os dados desses funcionários devem estar em um array, contendo: Nome, gênero, salário e área.
+	As informações requeridas, com base nas informações desse array são:
+
+	
+Qual o maior salário?
+	
+Qual área ganha mais e qual ganha menos?
+	
+Qual área tem mais mulheres?
+	
+Qual gênero ganha mais, homem ou mulher?
+	
+	Exemplo de array:
+	
+  
+  
+  
+    
+      
+      
+        PHP
+      
+    
+    
+    
+      <?php
+$funcionários = [
+    ['nome' => 'João da Silva', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6000],
+    ['nome' => 'Maria da Silva', 'genero' => 'F', 'area' => 'marketing', 'salario' => 3000],
+    ['nome' => 'Beltrano da Silva', 'genero' => 'M', 'area' => 'contabilidade', 'salario' => 4000],
+    ['nome' => 'Ciclano Pereira', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 4000],
+    ['nome' => 'Fulana Oliveira', 'genero' => 'F', 'area' => 'contabilidade', 'salario' => 2000],
+    ['nome' => 'Jão Silveira', 'genero' => 'M', 'area' => 'marketing', 'salario' => 4000],
+    ['nome' => 'Cirilo Ferreira', 'genero' => 'M', 'area' => 'contabilidade', 'salario' => 3000],
+    ['nome' => 'Zé das Couve', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 5000],
+    ['nome' => 'Pedro Pedrada', 'genero' => 'M', 'area' => 'contabilidade', 'salario' => 2000],
+    ['nome' => 'Paulo Paulada', 'genero' => 'M', 'area' => 'marketing', 'salario' => 2000],
+    ['nome' => 'Creuza Reis', 'genero' => 'F', 'area' => 'financeiro', 'salario' => 1500],
+    ['nome' => 'Yarley Ground', 'genero' => 'M', 'area' => 'financeiro', 'salario' => 3000],
+    ['nome' => 'Billy Bill', 'genero' => 'M', 'area' => 'marketing', 'salario' => 2000],
+    ['nome' => 'Brian Brioche', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6500],
+    ['nome' => 'Mary Mariana', 'genero' => 'F', 'area' => 'financeiro', 'salario' => 2000],
+]
+    
+    
+      Expandir (19 linhas)
+      Recolher
+    
+  
+  
+
+	
+	Bom Trabalho!
