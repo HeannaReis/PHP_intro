@@ -1,5 +1,5 @@
 <?php
-require_once './function.php';
+include './function.php';
 
 $x = $_POST['v1'];
 $y = $_POST['v2'];

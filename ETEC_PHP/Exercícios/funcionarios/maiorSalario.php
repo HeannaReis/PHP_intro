@@ -1,7 +1,7 @@
 <?php
 require_once './funcionarios.php';
 
-$maior = 0;
+$maior = 0; 
 
 foreach ($funcionarios as $k => $value)
 {   
