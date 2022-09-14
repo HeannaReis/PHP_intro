@@ -17,11 +17,3 @@ $funcionarios = [
     ['nome' => 'Brian Brioche', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6500],
     ['nome' => 'Mary Mariana', 'genero' => 'F', 'area' => 'financeiro', 'salario' => 2000],
 ];
-
-foreach ($funcionarios as $value)
-echo "<br>" .$value;
-echo "<br>";
-echo "<br>" . " O Maior número é: " . max($funcionarios["salario"]) . " !!! ";
-
-;
-    
