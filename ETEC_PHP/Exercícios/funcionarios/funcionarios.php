@@ -17,3 +17,7 @@ $funcionarios = [
     ['nome' => 'Brian Brioche', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6500],
     ['nome' => 'Mary Mariana', 'genero' => 'F', 'area' => 'financeiro', 'salario' => 2000],
 ];
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53ea41c25824efd370e3995455e3be3a3b5f85ab
