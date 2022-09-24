@@ -1,5 +1,5 @@
 Atividades:
-
+      
  	
 Reproduza o exemplo da aula
 	 
@@ -19,7 +19,6 @@ Crie um programa que apresente o maior, o menor e a média de todos os números 
 Faça um programa que apresente informações sobre o grupo de funcionários de uma empresa. Os dados desses funcionários devem estar em um array, contendo: Nome, gênero, salário e área.
 	As informações requeridas, com base nas informações desse array são:
 
-	
 Qual o maior salário?
 	
 Qual área ganha mais e qual ganha menos?
@@ -29,18 +28,9 @@ Qual área tem mais mulheres?
 Qual gênero ganha mais, homem ou mulher?
 	
 	Exemplo de array:
-	
-  
-  
-  
-    
-      
       
         PHP
-      
-    
-    
-    
+          
       <?php
 $funcionários = [
     ['nome' => 'João da Silva', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6000],
@@ -59,13 +49,4 @@ $funcionários = [
     ['nome' => 'Brian Brioche', 'genero' => 'M', 'area' => 'engenharia', 'salario' => 6500],
     ['nome' => 'Mary Mariana', 'genero' => 'F', 'area' => 'financeiro', 'salario' => 2000],
 ]
-    
-    
-      Expandir (19 linhas)
-      Recolher
-    
-  
-  
-
-	
 	Bom Trabalho!

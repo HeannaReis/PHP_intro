@@ -1,9 +1,7 @@
 <?php
 require_once './funcionarios.php';
 
-
 $maior = 0;
-
 
 foreach ($funcionarios as $k => $value)
 {   
@@ -13,4 +11,5 @@ foreach ($funcionarios as $k => $value)
 
 echo "<br>";
 echo ("<br>" . " O Maior salário é: " . $maior . " !!! ");
+
 

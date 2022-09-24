@@ -14,7 +14,7 @@
 <main>
     <form id="" method="post" action="processar.php"> </form>
     <label for="nome"> Nome: </label>
-    <input id="nome" name="nome" type="text" placeholder="Digite seu nome ..." require></input>
+    <input id="nome" name="nome" type="text" placeholder="Digite seu nome ..." require></input><br>
 
     <label for="email"> Email: </label>
     <input id="email" name="email" type="text" placeholder="Digite seu email ..." require></input>
