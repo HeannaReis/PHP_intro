@@ -19,7 +19,7 @@ try{
             }
             else 
             {
-                header ("Lo cation: login.php?falhou=true");
+                header ("Location: login.php?falhou=true");
             }    
         }   
         else

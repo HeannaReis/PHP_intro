@@ -13,7 +13,7 @@
     {
         if ($senhaCorreta == $senha)
         {
-        header ("Location: podePostar.php");
+        header ("Location: ./Postagem/podePostar.php");
         }
         else
         {

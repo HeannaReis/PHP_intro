@@ -3,19 +3,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Login</title>
 </head>
-<body>
-    
-<h1>Área de login</h1>
-        <div class="boxLogin"> 
+    <body>
+
         <form action="valida.php" method="post">
-            <label for="login">Login</label><br>
-            <input type="text" name="login" id="login" required><br><br>
-            <label for="senha">Senha</label><br>
-            <input type="password" name="pass" id="senha" required><br><br>
-            <input type="submit" name="enter" value="Login">
+            <h3>Login</h3>
+            <input type="text" name="login" id="login" required />
+            <input type="password" name="pass" id="senha" required />
+                <input type="submit" name="entrar" value="Entrar" />
         </form>
-        </div>
     </body>
 </html>

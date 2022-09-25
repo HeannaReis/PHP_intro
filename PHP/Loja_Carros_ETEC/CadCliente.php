@@ -31,7 +31,7 @@ if (isset($_POST["nome_razaosocial"]) && isset($_POST["cpf_cnpj"]) && isset($_PO
             <div class="container">
             <h2 class="titulo">Cadastro Clientes</h2> 
            </div>
-          <div class="cliente_cadastrado  ">
+          <div class="cliente_cadastrado ">
            <h2> <a href="./Banco/ListaClientes.php">Clientes Cadastrados</a></h2> 
 </div>
 </div>

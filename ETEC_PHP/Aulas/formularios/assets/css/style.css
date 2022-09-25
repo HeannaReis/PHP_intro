@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    background-color: rgb(23, 37, 69);
+}
+
+
+form {
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+form h3{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: rgb(23, 37, 69);
+    color: white;
+    border: 0;
+    border-radius: 20px;    
+  
+}
+
+form input[type=submit]:hover{
+    background-color: rgb(117, 144, 210);
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/bannerPost.png');
+    float:none; display: block; margin-left:auto; margin-right:auto;
+    width: 50%;
+    height:50%;
+    background-size:cover;
+    display: flex;  
+    margin-top: 5px;
+
+}
+
+.postado{
+    background-color: white;
+    max-width: 1440px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    word-wrap: break-word;
+}
