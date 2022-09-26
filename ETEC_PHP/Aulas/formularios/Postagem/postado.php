@@ -5,6 +5,11 @@
 include_once "validaPost.php";
 include_once "banner.php";
 
+
+if (!isset($_POST['titulo'])){
+    header("Location: podePostar.php");
+}
+
 $titulo = $_POST['titulo'];
 $conteudo = $_POST['conteudo'];
 $autor = $_POST['autor'];
