@@ -1,3 +1,12 @@
+<?php
+ session_start();
+
+ if(!empty($_SESSION['mensagem'])){
+     echo $_SESSION['mensagem'];
+     unset($_SESSION['mensagem']);
+     session_destroy();
+    }
+?>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -12,11 +21,11 @@
         <form action="postado.php" method="post">
             <h3>Novo Post</h3>
             <label for="titulo">Título:</label><br>
-            <input   type="text" name="titulo"  id="titulo" required><br><br>
+            <input   type="text" name="titulo"  id="titulo" ><br><br>
             <label for="conteudo">Conteúdo:</label><br>
-            <textarea type="textarea" name="conteudo" rows="4" cols="60" id="conteudo" required></textarea><br><br>
+            <textarea type="textarea" name="conteudo" rows="4" cols="60" id="conteudo" ></textarea><br><br>
             <label for="autor">Autor:</label><br>
-            <input type="text" name="autor" id="autor" required><br><br>
+            <input type="text" name="autor" id="autor"><br><br>
             <input type="submit" name="postar" value="Postar">
         </form>
         </div>

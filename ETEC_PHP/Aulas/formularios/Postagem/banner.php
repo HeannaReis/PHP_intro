@@ -1,4 +1,5 @@
 <div class="banner">
-Posts
+Posts<br>
+<a href="podePostar.php">Voltar</a>
 </div>
 

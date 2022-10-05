@@ -1,18 +1,10 @@
 <link rel="stylesheet" href="../assets/css/style.css">
-
 <?php
 
 include_once "validaPost.php";
 include_once "banner.php";
-
-
-if (!isset($_POST['titulo'])){
-    header("Location: podePostar.php");
-}
-
-$titulo = $_POST['titulo'];
-$conteudo = $_POST['conteudo'];
-$autor = $_POST['autor'];
+if(!isset($conteudo) && ($titulo))
+header("location: ../login.php");
 ?>
 <form class="postado"> 
 <?php
@@ -21,5 +13,6 @@ echo " Conteudo :" . "<br>" . mostraConteudo($conteudo) . "<br><br>";
 echo "Autor :  " . "<br>" . mostraAutor($autor) . "<br><br>";
 ?>
 </form>  
+
 
 

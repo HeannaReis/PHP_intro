@@ -1,3 +1,12 @@
+<?php
+ session_start();
+ if(!empty($_SESSION['mensagem'])){
+     echo $_SESSION['mensagem'];
+     unset($_SESSION['mensagem']);
+     session_destroy();
+ }
+?>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
