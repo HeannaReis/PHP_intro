@@ -1,7 +1,6 @@
 <?php
- session_start();
-
- if(!empty($_SESSION['mensagem'])){
+session_start();
+  if(!empty($_SESSION['mensagem'])){
      echo $_SESSION['mensagem'];
      unset($_SESSION['mensagem']);
      session_destroy();

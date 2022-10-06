@@ -1,4 +1,5 @@
 <?php
+session_start();
 
       $titulo = $_POST['titulo'];   
       $conteudo = $_POST['conteudo'];
@@ -6,35 +7,33 @@
 
 try {
 
-   if (empty($conteudo) || ($titulo) == ''){
-      
-      $_SESSION['mensagem'] = 'Preencha tudo !!!';
-      header("Location: podePostar.php");
-      return;
-   }
+   if(isset($titulo) && ($conteudo))
+   {
 
-   if(isset($conteudo))
-   {  
       function mostraTitulo($titulo)
       {
          return $titulo;
       }
-
+   
       function mostraConteudo($conteudo)
       {
          return $conteudo;
       }
-
+   
       function mostraAutor($autor)
       {
          return $autor;
       }
    }
-
+    elseif(empty($titulo) || ($conteudo) == ''){
+      $_SESSION['mensagem'] = 'Campo Título e Conteúdo Obrigatórios !!!';
+      header("Location: podePostar.php");
+      return;
+    }
    
 } catch (Exception $e) {
 
-   echo "Preencha todos os campos !";
+   echo "Verifique Login e tente novamente !";
    header("location: ../login.php");
    return;
 }

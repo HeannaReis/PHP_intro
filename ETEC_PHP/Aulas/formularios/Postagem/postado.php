@@ -3,8 +3,7 @@
 
 include_once "validaPost.php";
 include_once "banner.php";
-if(!isset($conteudo) && ($titulo))
-header("location: ../login.php");
+
 ?>
 <form class="postado"> 
 <?php

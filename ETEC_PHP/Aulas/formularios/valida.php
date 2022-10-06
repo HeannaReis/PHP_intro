@@ -1,5 +1,4 @@
 <?php
-if(isset($_SESSION) == 'logado'){}
 
 function validaLogin (){
     $loginCorreto = "admin";
@@ -12,10 +11,10 @@ function validaLogin (){
     {
         if ($senha == $senhaCorreta)
         {
+        header ("Location: Postagem/podePostar.php?logado=true");
         $_SESSION["logado"] = $login; 
         $_SESSION['mensagem'] = "Usuário, " .  " $login" . " Logado com Sucesso !!";
-        header ("location: Postagem/podePostar.php?");
-           
+        return;        
         }
         else
         {
