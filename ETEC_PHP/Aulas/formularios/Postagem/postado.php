@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <?php
 
+
 include_once "validaPost.php";
 include_once "banner.php";
 

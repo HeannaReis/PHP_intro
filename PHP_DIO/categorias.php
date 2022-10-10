@@ -42,7 +42,7 @@ elseif (!is_numeric($idade))
     return;
 }
 
-else if($idade < 6)
+elseif($idade < 6)
 {
     {
         $_SESSION['mensagem']= " Desculpe " .$nome. " , você ainda não pode competir !!! ";
@@ -50,7 +50,7 @@ else if($idade < 6)
         return;
     }    
 }
-else if($idade >= 6 && $idade <= 12)
+elseif($idade >= 6 && $idade <= 12)
 {
     for ($i = 0; $i <= count($categorias); $i++)
     {
@@ -62,7 +62,7 @@ else if($idade >= 6 && $idade <= 12)
         }    
     }    
 }
-else if ($idade >= 13 && $idade <= 18)
+elseif ($idade >= 13 && $idade <= 18)
 {
     for ($i = 0; $i <= count($categorias); $i++)
     {
@@ -74,7 +74,7 @@ else if ($idade >= 13 && $idade <= 18)
         }  
     }              
 }
-else if ($idade >= 19 && $idade <= 60)
+elseif ($idade >= 19 && $idade <= 60)
 {
     for ($i = 0; $i <= count($categorias); $i++)
     {

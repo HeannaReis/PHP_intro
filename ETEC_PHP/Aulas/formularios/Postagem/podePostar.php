@@ -5,6 +5,7 @@ session_start();
      unset($_SESSION['mensagem']);
      session_destroy();
     }
+   
 ?>
 <html lang="pt-br">
 <head>

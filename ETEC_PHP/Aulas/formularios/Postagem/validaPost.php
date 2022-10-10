@@ -5,27 +5,29 @@ session_start();
       $conteudo = $_POST['conteudo'];
       $autor = $_POST['autor'];
 
-try {
-
-   if(isset($titulo) && ($conteudo))
-   {
-
+try {   
+   if(empty($conteudo) || ($titulo) == ''){
+      $_SESSION['mensagem'] = 'Campos Título e Conteúdo Obrigatórios !!!';
+      header("Location: podePostar.php");
+      return;
+    }
+    elseif(isset($conteudo) && ($titulo))
+      {
       function mostraTitulo($titulo)
       {
          return $titulo;
       }
-   
       function mostraConteudo($conteudo)
       {
          return $conteudo;
       }
-   
       function mostraAutor($autor)
       {
          return $autor;
       }
+   
    }
-    elseif(empty($titulo) || ($conteudo) == ''){
+    elseif(($titulo) || ($conteudo) == ''){
       $_SESSION['mensagem'] = 'Campo Título e Conteúdo Obrigatórios !!!';
       header("Location: podePostar.php");
       return;
