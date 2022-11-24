@@ -1,0 +1,108 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body, html {
+     width: 100%;
+     height: 100%;
+     min-width: 100% !important;
+     min-height: 100% !important;
+}
+
+.container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.login {
+     border: 1px solid black;
+     padding: 10px;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+}
+
+.login section {
+     display: flex;
+     justify-content: space-between;
+     padding: 12px;
+}
+
+.login div {
+     display: flex;
+     justify-content: center;
+     padding: 12px;
+}
+
+.login div button {
+     padding: 12px;
+}
+
+.notas {
+     width: 85%;
+     border: 1px solid black;
+     padding: 20px;
+     border-radius: 13px;
+}
+
+.notas .pesquisa {
+     padding: 15px;
+     display: flex;
+     justify-content: center;
+}
+
+.notas .corpo {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.btnform {
+     display: flex;
+     flex-direction: row;
+}
+
+.notas .corpo .cadnota #anotar, #editar {
+     padding: 15px 41%;
+}
+.notas .corpo .cadnota #alert {
+     color: red !important;
+     width: 100%;
+}
+
+.notas .corpo .listanotas {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 95%;
+}
+table, th, td{
+     border: 1px solid black;
+
+}
+table {
+     width: 100%;
+}
+
+table th, table td, #lista{
+     padding: 8px;
+}
+
+#lista {
+     width: 100%;
+     display: inline-block;
+     overflow: auto;
+     height: 200px;
+}
+
+.topo {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+}
